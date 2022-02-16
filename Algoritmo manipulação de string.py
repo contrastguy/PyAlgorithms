@@ -1,0 +1,7 @@
+nome=str(input("Digite aqui seu nome nome completo:"))
+print("Seu nome em  letras minúsculas é :{}" .format(nome.lower()))
+print("Seu nome em letras maiúsculas é : {} ".format(nome.upper()))
+sugar = nome.replace(" ", "")
+print("A quantidade de letras é : {}" .format(len(sugar)))
+feels= nome.split()
+print("A quantidade de letras do primeiro nome é: {}" .format(len(feels[0])))
